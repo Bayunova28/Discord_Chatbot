@@ -23,14 +23,14 @@ Before do this project, you must build [discord API](https://discord.com/develop
 * Bot (add bot on your application)
 * OAuth2 (authentication your bot to can response the message)
 
-## Setting up the discord API
+### Setting up the discord API
 ```python
 client = discord.Client()
 load_dotenv()
 TOKEN = 'YOUR DISCORD API TOKEN'
 ```
 
-## Setting up the response of chatbot
+### Setting up the response of chatbot
 ```python
 @client.event
 async def on_message(message):
@@ -47,14 +47,14 @@ async def on_message(message):
             await message.channel.send(f'Stock price of {ticker} is {price}!')
 ```
 
-## Setting up connection of chatbot
+### Setting up connection of chatbot
 ```python
 @client.event
 async def on_connect():
     print('JarvisBOT connected to the server!')
 ```
 
-## Setting up chatbot can join into each channel in discord
+### Setting up chatbot can join into each channel in discord
 ```python
 @client.event
 async def on_join(member):
