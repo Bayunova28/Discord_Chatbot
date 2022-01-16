@@ -1,4 +1,4 @@
-# Discord Chatbot (JarvisBOT)
+# Discord Chatbots (JarvisBOT)
 <img src="https://github.com/Bayunova28/Discord_Virtual_Assistant/blob/master/result.png" width="1000">
 
 Discord is growing in popularity. As such, automated processes, such as banning inappropriate users and reacting to user requests are vital for a community to thrive and grow. 
