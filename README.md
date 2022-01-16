@@ -54,7 +54,7 @@ async def on_connect():
     print('JarvisBOT connected to the server!')
 ```
 
-## Setting up chatbot can join of each channel in discord
+## Setting up chatbot can join into each channel in discord
 ```python
 @client.event
 async def on_join(member):
