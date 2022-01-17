@@ -12,7 +12,7 @@ ticker stock.
 
 ## Install Package
 Make sure you have discord, pandas reader, and dotenv  installed. If not install them using pip
-```
+```python
 pip install discord
 pip install pandas-reader
 pip install -U python-dotenv
