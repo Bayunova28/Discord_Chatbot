@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 #generate discord API
 client = discord.Client()
 load_dotenv()
-TOKEN = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+TOKEN = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 
 #define function to call stock price information of each ticker
 def stock_price(ticker):
